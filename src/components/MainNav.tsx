@@ -18,7 +18,6 @@ export const MainNav: FC = () => {
           </div>
           <div className="flex">
             <MainLink title="トップ" subtitle="Top" href="/" />
-            <MainLink title="曽道智教授" subtitle="Prof. Zeng" href="/zeng" />
             <MainLink
               title="伊藤亮准教授"
               subtitle="Assoc. Prof. Itoh"

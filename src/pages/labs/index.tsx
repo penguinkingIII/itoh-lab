@@ -31,79 +31,33 @@ export default function Home() {
               </div>
             </MyP>
           </div>
-          <div className="flex md:w-1/3 w-full">
-            <Link href={"#zeng_lab"} className="md:w-1/2 relative group/image">
-              <img
-                className="object-cover md:h-full h-0 group-hover/image:opacity-50"
-                src="/1.jpeg"
-                alt="zeng"
-                width={9999}
-                height={9999}
-              />
-              <div className="absolute md:h-full h-0 z-10 w-full top-0 flex items-center justify-center">
-                <div className="md:text-6xl underline md:no-underline text-teal-50 md:opacity-100 opacity-0">
-                  <div>曽</div> <div>　</div>
-                  <div>研</div> <div>究</div> <div>室</div>
-                </div>
-              </div>
-
-              <div className="md:text-neutral-50 underline ml-10">曽研究室</div>
-            </Link>
-            <Link href={"#itoh_lab"} className="md:w-1/2 relative group/image">
-              <img
-                className="object-cover md:h-full h-0 group-hover/image:opacity-50"
-                src="/1.jpg"
-                alt="zeng"
-                width={9999}
-                height={9999}
-              />
-              <div className="absolute md:h-full h-0 z-10 w-full top-0 flex items-center justify-center">
-                <div className="md:text-6xl underline md:no-underline text-neutral-50 md:opacity-100 opacity-0">
-                  <div>伊</div>
-                  <div>藤</div> <div>研</div> <div>究</div> <div>室</div>
-                </div>
-              </div>
-
-              <div className="md:text-neutral-50 underline ml-10">
-                伊藤研究室
-              </div>
-            </Link>
-          </div>
+      
         </div>
       </LabCard>
 
       <LabCard>
         <div
-          id="zeng_lab"
           className="flex items-center gap-x-7 justify-between md:w-full"
         >
-          <div className="w-full">
-            <div className="J2 md:text-6xl text-3xl font-bold md:mb-36 mb-5 text-indigo-900 ">
-              曽研究室
-            </div>
-            <div className="flex w-fit justify-between">
+        <div className="w-full">
+          <div className="flex w-fit justify-between">
               <StaffCard headerText="教員">
                 <div className="flex w-full justify-center">
                   <div className="md:mt-16">
-                    <div className="md:text-2xl md:mb-5">教授　曾道智</div>
+                    <div className="md:text-2xl md:mb-5">准教授　伊藤亮</div>
                     <div className="md:text-2xl md:mb-7 mb-3">
-                      (Prof. Dao-Zhi Zeng)
+                      (Associate Prof. Ryo Itoh)
                     </div>
                     <ul className="list-disc flex flex-col gap-y-2 md:text-base text-xs">
-                      <div>1996.4:　香川大学経済学部講師</div>
-                      <div>1997.6:　 香川大学経済学部助教授 </div>
-                      <div>
-                        2004.4:　香川大学大学院地域マネジメント研究科 助教授{" "}
-                      </div>
-                      <div>
-                        2006.3:　香川大学大学院地域マネジメント研究科 教授
-                      </div>
-                      <div>2008.4:　東北大学大学院情報科学研究科 教授</div>
-                      <div className="mt-5 underline text-blue-700">
+                      <div>2008.4　運輸政策研究機構運輸政策研究所　研究員</div>
+                      <div>2010.10　名古屋市立大学経済学研究科　講師</div>
+                      <div>2014.7　名古屋市立大学経済学研究科　准教授</div>
+                      <div>2015.4:　東北大学大学院情報科学研究科 准教授</div>
+                      <div className="md:mt-5 underline text-blue-700">
                         <Link
                           target="_blank"
                           href={
-                            "http://www.se.is.tohoku.ac.jp/~zeng/index.html"
+                            "https://sites.google.com/site/ryoitohspage/home"
                           }
                         >
                           詳しくはこちらへ
@@ -113,9 +67,18 @@ export default function Home() {
                   </div>
                 </div>
               </StaffCard>
-              <div className="md:w-1/3 w-0 md:mt-20">
-                <img src={"/zeng.webp"} alt="zeng" />
+              <div className="md:w-1/3 w-0">
+                <img
+                  src={"/itoh.webp"}
+                  alt="zeng"
+                  className="mt-24"
+                  width={700}
+                  height={900}
+                />
               </div>
+            </div>
+          
+            <div className="flex w-fit justify-between">
             </div>
             <div className="flex w-full justify-between">
               <StaffCard headerText="客員研究員">
@@ -160,44 +123,25 @@ export default function Home() {
                       width={180}
                       height={240}
                     />
-                    劉宜昊(D2)
+                    劉宜昊(D3)
                     <div>出身地：中国新疆ウイグル自治区</div>
                     <div>趣味：バスケットボール、水泳</div>
                     <div>メール:liu[at]se.is.tohoku.ac.jp</div>
                   </StudentCard>
                   <StudentCard>
-                    <div>
-                      <meta name="robots" content="noarchive" />
-                      <img
-                        src={"/GXQ.jpg"}
-                        alt="郭筱琦"
-                        className="pb-5"
-                        width={180}
-                        height={240}
-                        loading="lazy"
-                      />
-                    </div>
-                    郭筱琦(M2)
-                    <div>出身地: 中国湖北省</div>
-                    <div>趣味: 料理、ヨガ</div>
-                    <div>メール:sookie[at]se.is.tohoku.ac.jp</div>
-                  </StudentCard>{" "}
-                  <StudentCard>
-                    <img
-                      src={"/dong.jpg"}
-                      alt="zeng"
-                      className="pb-5"
-                      width={180}
-                      height={240}
-                    />
-                    董振武(M2)
-                    <div>出身地: 中国湖北省</div>
-                    <div>趣味: 旅行、音楽</div>
-                    <div>メール:dongzhenwu[at]se.is.tohoku.ac.jp</div>
-                  </StudentCard>
-                </div>
-
-                <div className=" md:mt-24 md:flex w-full">
+                <img
+                src={"/tang.jpg"}
+                alt="zeng"
+                className="pb-5"
+                width={180}
+                height={240}
+              />
+              唐晨雪(D3)
+              <div>出身地: 中国湖南省</div>
+              <div>趣味: 読書、散歩</div>
+              <div>メール: tang[at]se.is.tohoku.ac.jp</div>
+            </StudentCard>
+                  
                   <StudentCard>
                     <img
                       src={"/lyf.jpg"}
@@ -209,189 +153,97 @@ export default function Home() {
                     <div className="flex gap-x-2">劉依凡(特別研究学生)</div>
                     <div>出身地: 中国江苏省</div>
                     <div>趣味: 音楽</div>
-                    <div>メール: liu.yifan.s7[at]dc.tohoku.ac.jp</div>
+                    <div>メール: </div>
+                    <div>liu.yifan.s7[at]dc.tohoku.ac.jp</div>
+                  </StudentCard>
+                </div>
+                <div className="md:mt-24 md:flex w-full">
+                
+            <StudentCard>
+              <img
+                src={"/fan.jpg"}
+                alt="zeng"
+                className="pb-5"
+                width={180}
+                height={240}
+               />
+               <div>范小叉(M2)</div>
+               <div>出身地: 中国四川省</div>
+               <div>趣味: 電車、アニメ、旅行</div>
+               <div>メール: </div>
+               <div>fan.xiaocha.t2[at]dc.tohoku.ac.jp</div>
+               </StudentCard>
+                  <StudentCard>
+                    <img
+                      src={"/dong.jpg"}
+                      alt="zeng"
+                      className="pb-5"
+                      width={180}
+                      height={240}
+                    />
+                    董振武(M2)
+                    <div>出身地: 中国湖北省</div>
+                    <div>趣味: 旅行、音楽</div>
+                    <div>メール:</div>
+                    <div>dongzhenwu[at]se.is.tohoku.ac.jp</div>
                   </StudentCard>
                   <StudentCard>
                     <img
-                      src={"/sql.jpg"}
+                      src={"/zhangyt.jpg"}
                       alt="zeng"
                       className="pb-5"
-                      width={190}
+                      width={180}
                       height={240}
                     />
-                    <div className="flex gap-x-2">蘇秦龍(研究生)</div>
-                    <div>出身地: 中国吉林省</div>
-                    <div>趣味: 旅行、歴史</div>
-                    <div>メール: su.qinlong.p4[at]dc.tohoku.ac.jp</div>
+                    张宇彤(M1)
+                    <div>出身地: 中国陕西省</div>
+                    <div>趣味: ゲーム、ピストバイク、大河ドラマ</div>
+                    <div>メール:</div>
+                    <div>zhang.yutong.t6[at]dc.tohoku.ac.jp</div>
                   </StudentCard>
                 </div>
               </StaffCard>
             </div>
-            <StaffCard headerText="卒業生">
-              <div className="md:mt-24 md:flex w-full">
-                <StudentCard>
-                  <img
-                    src={"/lxmm.jpg"}
-                    alt="zeng"
-                    className="pb-5"
-                    width={180}
-                    height={240}
-                  />
-                  李馨萌:2021年9月 博士後期課程卒業
-                  <div>進路: 総合地球環境学研究所</div>
-                  <div>出身地: 中国天津市</div>
-                  <div>趣味: 絵画、アニメ</div>
-                  <div>メール:lixinmeng[at]se.is.tohoku.ac.jp</div>
-                </StudentCard>
-                <StudentCard>
-                  <img
-                    src={"/lkf.jpg"}
-                    alt="zeng"
-                    className="pb-5"
-                    width={175}
-                    height={210}
-                  />
-                  林柯夫:2023年3月 博士後期課程卒業
-                  <div>進路: 東海大学政治経済学部経済学科</div>
-                  <div>出身地: 中国浙江省</div>
-                  <div>趣味: 囲碁、麻雀</div>
-                  <div>メール:lin[at]se.is.tohoku.ac.jp</div>
-                </StudentCard>
-                <StudentCard>
-                  <img
-                    src={"/PanR.jpg"}
-                    alt="zeng"
-                    className="pb-5"
-                    width={130}
-                    height={210}
-                  />
-                  潘鋭:2023年9月 博士後期課程卒業
-                  <div>進路: 弘前大学 人文社会科学部 助教</div>
-                  <div>出身地: 中国安徽省</div>
-                  <div>趣味: 将棋、音楽鑑賞</div>
-                  <div>メール:pan[at]se.is.tohoku.ac.jp</div>
-                </StudentCard>
-              </div>
-            </StaffCard>
           </div>
         </div>
         <div
-          id="itoh_lab"
           className="flex items-center gap-x-7 justify-between md:w-full"
         >
-          <div className="w-full">
-            <div className="J2 md:text-6xl text-3xl font-bold md:mb-36 mb-5 text-indigo-900 ">
-              伊藤研究室
-            </div>
-            <div className="flex w-fit justify-between">
-              <StaffCard headerText="教員">
-                <div className="flex w-full justify-center">
-                  <div className="md:mt-16">
-                    <div className="md:text-2xl md:mb-5">准教授　伊藤亮</div>
-                    <div className="md:text-2xl md:mb-7 mb-3">
-                      (Associate Prof. Ryo Itoh)
-                    </div>
-                    <ul className="list-disc flex flex-col gap-y-2 md:text-base text-xs">
-                      <div>2008.4　運輸政策研究機構運輸政策研究所　研究員</div>
-                      <div>2010.10　名古屋市立大学経済学研究科　講師</div>
-                      <div>2014.7　名古屋市立大学経済学研究科　准教授</div>
-                      <div>2015.4:　東北大学大学院情報科学研究科 准教授</div>
-                      <div className="md:mt-5 underline text-blue-700">
-                        <Link
-                          target="_blank"
-                          href={
-                            "https://sites.google.com/site/ryoitohspage/home"
-                          }
-                        >
-                          詳しくはこちらへ
-                        </Link>
-                      </div>
-                    </ul>
-                  </div>
-                </div>
-              </StaffCard>
-              <div className="md:w-1/3 w-0">
-                <img
-                  src={"/itoh.webp"}
-                  alt="zeng"
-                  className="mt-24"
-                  width={700}
-                  height={900}
-                />
-              </div>
-            </div>
+        <div className="w-full">
+        <div className="md:flex w-full">
+        </div>
+        <div className="flex w-full justify-between">
+</div>
 
-            <div className="flex w-full justify-between">
-              <StaffCard headerText="学生">
-                <div className="md:mt-24 md:flex w-full">
-                  <StudentCard>
-                    <img
-                      src={"/tsuboi.jpg"}
-                      alt="zeng"
-                      className="pb-5"
-                      width={180}
-                      height={240}
-                    />
-                    <div className="flex gap-x-2">
-                      坪井和史(D3)
-                      <Link
-                        target="_blank"
-                        href={"https://researchmap.jp/kazufumi_tsuboi"}
-                      >
-                        <div className="underline text-blue-700">
-                          research map
-                        </div>
-                      </Link>
-                    </div>
-                    <div>[2023.4-] 日本学術振興会 特別研究員 DC2</div>
-                    <div>出身地: 神奈川県</div>
-                    <div>趣味: 陸上競技、星や森を眺めること</div>
-                    <div>メール: tsuboi[at]se.is.tohoku.ac.jp</div>
-                  </StudentCard>
-                  <StudentCard>
-                    <img
-                      src={"/tang.jpeg"}
-                      alt="zeng"
-                      className="pb-5"
-                      width={180}
-                      height={240}
-                    />
-                    唐晨雪(D2)
-                    <div>出身地: 中国湖南省</div>
-                    <div>趣味: 読書、散歩</div>
-                    <div>メール: tang[at]se.is.tohoku.ac.jp</div>
-                  </StudentCard>
-                  <StudentCard>
-                    <img
-                      src={"/wang.j.jpg"}
-                      alt="zeng"
-                      className="pb-5"
-                      width={180}
-                      height={240}
-                    />
-                    王郡南(M2)
-                    <div>出身地: 中国湖北省</div>
-                    <div>趣味: ピアノ、バレーボール</div>
-                    <div>メール: wang.j[at]se.is.tohoku.ac.jp</div>
-                  </StudentCard>
-                </div>
-                <div className=" md:mt-24 md:flex w-full">
-                  <StudentCard>
-                    <img
-                      src={"/fan.jpg"}
-                      alt="zeng"
-                      className="pb-5"
-                      width={180}
-                      height={240}
-                    />
-                    <div className="flex gap-x-2">范小叉(M1)</div>
-                    <div>出身地: 中国四川省</div>
-                    <div>趣味: 電車、アニメ、旅行</div>
-                    <div>メール: fan.xiaocha.t2[at]dc.tohoku.ac.jp</div>
-                  </StudentCard>
-                </div>
-              </StaffCard>
-            </div>
+<div className="flex w-full justify-between">
+  <StaffCard headerText="卒業生">
+    <div className="md:flex w-full">
+      <StudentCard>
+        <img
+          src={"/tsuboi.jpg"}
+          alt="zeng"
+          className="pb-5"
+          width={180}
+          height={240}
+        />
+        <div className="flex gap-x-2">
+          坪井和史
+          <Link
+            target="_blank"
+            href={"https://researchmap.jp/kazufumi_tsuboi"}
+          >
+            <div className="underline text-blue-700">research map</div>
+          </Link>
+        </div>
+        <div>[2023.4-] 日本学術振興会 特別研究員 DC2</div>
+        <div>出身地: 神奈川県</div>
+        <div>趣味: 陸上競技、星や森を眺めること</div>
+        <div>メール: tsuboi[at]se.is.tohoku.ac.jp</div>
+      </StudentCard>
+    </div>
+  </StaffCard>
+</div>
+
           </div>
         </div>
       </LabCard>

@@ -23,14 +23,6 @@ export default function Home() {
         </div>
         <MyP className="JR md:text-xl text-xs underline">
           <center>
-            <div className="mb-5">
-              <Link
-                target="_blank"
-                href={"http://www.se.is.tohoku.ac.jp/~zeng/index.html"}
-              >
-                教授　曾道智(Prof. Dao-Zhi Zeng)
-              </Link>
-            </div>
             <div>
               <Link
                 target="_blank"
