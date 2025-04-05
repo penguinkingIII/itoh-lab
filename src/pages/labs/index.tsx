@@ -157,7 +157,7 @@ export default function Home() {
                     <div>liu.yifan.s7[at]dc.tohoku.ac.jp</div>
                   </StudentCard>
                 </div>
-                <div className="md:mt-24 md:flex w-full">
+                 <div className="md:mt-24 md:flex w-full">
                 
                <StudentCard>
                <img
@@ -201,7 +201,9 @@ export default function Home() {
                     <div>メール:</div>
                     <div>zhang.yutong.t6[at]dc.tohoku.ac.jp</div>
                   </StudentCard>
-                  <StudentCard>
+                </div>
+                <div className="md:mt-24 md:flex w-full">
+                <StudentCard>
                     <img
                       src={"/chengyf.jpg"}
                       alt="zeng"
