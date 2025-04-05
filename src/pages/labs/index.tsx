@@ -140,7 +140,7 @@ export default function Home() {
               <div>出身地: 中国湖南省</div>
               <div>趣味: 読書、散歩</div>
               <div>メール: tang[at]se.is.tohoku.ac.jp</div>
-            </StudentCard>
+             </StudentCard>
                   
                   <StudentCard>
                     <img
@@ -159,8 +159,8 @@ export default function Home() {
                 </div>
                 <div className="md:mt-24 md:flex w-full">
                 
-            <StudentCard>
-              <img
+               <StudentCard>
+               <img
                 src={"/fan.jpg"}
                 alt="zeng"
                 className="pb-5"
@@ -200,6 +200,20 @@ export default function Home() {
                     <div>趣味: ゲーム、ピストバイク、大河ドラマ</div>
                     <div>メール:</div>
                     <div>zhang.yutong.t6[at]dc.tohoku.ac.jp</div>
+                  </StudentCard>
+                  <StudentCard>
+                    <img
+                      src={"/chengyf.jpg"}
+                      alt="zeng"
+                      className="pb-5"
+                      width={180}
+                      height={240}
+                    />
+                    程毅飛(M1)
+                    <div>出身地: 中国陕西省</div>
+                    <div>趣味: 音楽、旅行</div>
+                    <div>メール:</div>
+                    <div>cheng.yifei.r1[at]dc.tohoku.ac.jp</div>
                   </StudentCard>
                 </div>
               </StaffCard>
