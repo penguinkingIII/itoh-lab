@@ -56,7 +56,6 @@ export default function Home() {
                   <MyTableCell>{row[0]}</MyTableCell>
                   <MyTableCell>{row[1]}</MyTableCell>
                   <MyTableCell>{row[2]}</MyTableCell>
-                  <MyTableCell>{row[3]}</MyTableCell>
                 </div>
               );
             })}
