@@ -103,7 +103,7 @@ interface MyTabCellProps {
 }
 const MyTableCell: FC<MyTabCellProps> = ({ children }) => {
   return (
-    <div className="border border-black w-1/4 h-full text-center md:text-lg text-xs">
+    <div className="border border-black flex-1 h-full text-center md:text-lg text-xs">
       {children}
     </div>
   );
