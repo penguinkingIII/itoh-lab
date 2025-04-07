@@ -142,7 +142,7 @@ export default function Home() {
               <div>メール: tang[at]se.is.tohoku.ac.jp</div>
              </StudentCard>
                   
-                  <StudentCard>
+                    <StudentCard>
                     <img
                       src={"/lyf.jpg"}
                       alt="zeng"
@@ -155,25 +155,25 @@ export default function Home() {
                     <div>趣味: 音楽</div>
                     <div>メール: </div>
                     <div>liu.yifan.s7[at]dc.tohoku.ac.jp</div>
-                  </StudentCard>
-                </div>
-                 <div className="md:mt-24 md:flex w-full">
+                       </StudentCard>
+                       </div>
+                     <div className="md:mt-24 md:flex w-full">
                 
-               <StudentCard>
-               <img
-                src={"/fan.jpg"}
-                alt="zeng"
-                className="pb-5"
-                width={180}
-                height={240}
-               />
-               <div>范小叉(M2)</div>
-               <div>出身地: 中国四川省</div>
-               <div>趣味: 電車、アニメ、旅行</div>
-               <div>メール: </div>
-               <div>fan.xiaocha.t2[at]dc.tohoku.ac.jp</div>
-               </StudentCard>
-                  <StudentCard>
+                     <StudentCard>
+                      <img
+                     src={"/fan.jpg"}
+                      alt="zeng"
+                      className="pb-5"
+                      width={180}
+                      height={240}
+                      />
+                    <div>范小叉(M2)</div>
+                    <div>出身地: 中国四川省</div>
+                    <div>趣味: 電車、アニメ、旅行</div>
+                    <div>メール: </div>
+                    <div>fan.xiaocha.t2[at]dc.tohoku.ac.jp</div>
+                   </StudentCard>
+                   <StudentCard>
                     <img
                       src={"/dong.jpg"}
                       alt="zeng"
@@ -203,7 +203,7 @@ export default function Home() {
                   </StudentCard>
                 </div>
                 <div className="md:mt-24 md:flex w-full">
-                <StudentCard>
+                    <StudentCard>
                     <img
                       src={"/chengyf.jpg"}
                       alt="zeng"
@@ -216,7 +216,7 @@ export default function Home() {
                     <div>趣味: 音楽、旅行</div>
                     <div>メール:</div>
                     <div>cheng.yifei.r1[at]dc.tohoku.ac.jp</div>
-                  </StudentCard>
+                    </StudentCard>
                 </div>
               </StaffCard>
             </div>
