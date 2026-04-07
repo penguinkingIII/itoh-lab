@@ -123,7 +123,7 @@ export default function Home() {
                       width={180}
                       height={240}
                     />
-                    唐晨雪(D3)
+                    唐晨雪(D)
                     <div>出身地: 中国湖南省</div>
                     <div>趣味: 読書、散歩</div>
                     <div>メール: tang[at]se.is.tohoku.ac.jp</div>
@@ -223,7 +223,7 @@ export default function Home() {
           width={180}
           height={240}
         />
-        劉宜昊(D3)
+        劉宜昊
         <div>出身地：中国新疆ウイグル自治区</div>
         <div>趣味：バスケットボール、水泳</div>
         <div>メール:liu[at]se.is.tohoku.ac.jp</div>
@@ -254,7 +254,7 @@ export default function Home() {
           width={180}
           height={240}
         />
-        <div>范小叉(M2)</div>
+        <div>范小叉</div>
         <div>出身地: 中国四川省</div>
         <div>趣味: 電車、アニメ、旅行</div>
         <div>メール: </div>
@@ -269,7 +269,7 @@ export default function Home() {
           width={180}
           height={240}
         />
-        董振武(M2)
+        董振武
         <div>出身地: 中国湖北省</div>
         <div>趣味: 旅行、音楽</div>
         <div>メール:</div>
