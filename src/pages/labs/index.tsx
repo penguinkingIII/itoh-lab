@@ -117,76 +117,18 @@ export default function Home() {
                 <div className="md:mt-24 md:flex w-full">
                   <StudentCard>
                     <img
-                      src={"/liuyh.jpg"}
+                      src={"/tang.jpg"}
                       alt="zeng"
                       className="pb-5"
                       width={180}
                       height={240}
                     />
-                    劉宜昊(D3)
-                    <div>出身地：中国新疆ウイグル自治区</div>
-                    <div>趣味：バスケットボール、水泳</div>
-                    <div>メール:liu[at]se.is.tohoku.ac.jp</div>
+                    唐晨雪(D3)
+                    <div>出身地: 中国湖南省</div>
+                    <div>趣味: 読書、散歩</div>
+                    <div>メール: tang[at]se.is.tohoku.ac.jp</div>
                   </StudentCard>
-                  <StudentCard>
-                <img
-                src={"/tang.jpg"}
-                alt="zeng"
-                className="pb-5"
-                width={180}
-                height={240}
-              />
-              唐晨雪(D3)
-              <div>出身地: 中国湖南省</div>
-              <div>趣味: 読書、散歩</div>
-              <div>メール: tang[at]se.is.tohoku.ac.jp</div>
-             </StudentCard>
-                  
-                    <StudentCard>
-                    <img
-                      src={"/lyf.jpg"}
-                      alt="zeng"
-                      className="pb-5"
-                      width={180}
-                      height={240}
-                    />
-                    <div className="flex gap-x-2">劉依凡(特別研究学生)</div>
-                    <div>出身地: 中国江苏省</div>
-                    <div>趣味: 音楽</div>
-                    <div>メール: </div>
-                    <div>liu.yifan.s7[at]dc.tohoku.ac.jp</div>
-                       </StudentCard>
-                       </div>
-                     <div className="md:mt-24 md:flex w-full">
-                
-                     <StudentCard>
-                      <img
-                     src={"/fan.jpg"}
-                      alt="zeng"
-                      className="pb-5"
-                      width={180}
-                      height={240}
-                      />
-                    <div>范小叉(M2)</div>
-                    <div>出身地: 中国四川省</div>
-                    <div>趣味: 電車、アニメ、旅行</div>
-                    <div>メール: </div>
-                    <div>fan.xiaocha.t2[at]dc.tohoku.ac.jp</div>
-                   </StudentCard>
-                   <StudentCard>
-                    <img
-                      src={"/dong.jpg"}
-                      alt="zeng"
-                      className="pb-5"
-                      width={180}
-                      height={240}
-                    />
-                    董振武(M2)
-                    <div>出身地: 中国湖北省</div>
-                    <div>趣味: 旅行、音楽</div>
-                    <div>メール:</div>
-                    <div>dongzhenwu[at]se.is.tohoku.ac.jp</div>
-                  </StudentCard>
+
                   <StudentCard>
                     <img
                       src={"/zhangyt.jpg"}
@@ -201,9 +143,8 @@ export default function Home() {
                     <div>メール:</div>
                     <div>zhang.yutong.t6[at]dc.tohoku.ac.jp</div>
                   </StudentCard>
-                </div>
-                <div className="md:mt-24 md:flex w-full">
-                    <StudentCard>
+
+                  <StudentCard>
                     <img
                       src={"/chengyf.jpg"}
                       alt="zeng"
@@ -216,7 +157,25 @@ export default function Home() {
                     <div>趣味: 音楽、旅行</div>
                     <div>メール:</div>
                     <div>cheng.yifei.r1[at]dc.tohoku.ac.jp</div>
-                    </StudentCard>
+                  </StudentCard>
+
+                  <StudentCard>
+                    <img
+                      src={"/sun.jpg"}
+                      alt="zeng"
+                      className="pb-5"
+                      width={180}
+                      height={240}
+                    />
+                    孫源(M1)
+                    <div>出身地: 中国湖北省</div>
+                    <div>趣味: 撮影，バレーボール</div>
+                    <div>メール:</div>
+                    <div>csun.yuan.s5[at]dc.tohoku.ac.jp</div>
+                  </StudentCard>
+
+
+
                 </div>
               </StaffCard>
             </div>
@@ -255,6 +214,67 @@ export default function Home() {
         <div>出身地: 神奈川県</div>
         <div>趣味: 陸上競技、星や森を眺めること</div>
         <div>メール: tsuboi[at]se.is.tohoku.ac.jp</div>
+      </StudentCard>
+
+      <StudentCard>
+        <img
+          src={"/liuyh.jpg"}
+          alt="zeng"
+          className="pb-5"
+          width={180}
+          height={240}
+        />
+        劉宜昊(D3)
+        <div>出身地：中国新疆ウイグル自治区</div>
+        <div>趣味：バスケットボール、水泳</div>
+        <div>メール:liu[at]se.is.tohoku.ac.jp</div>
+      </StudentCard>
+
+      <StudentCard>
+        <img
+          src={"/lyf.jpg"}
+          alt="zeng"
+          className="pb-5"
+          width={180}
+          height={240}
+        />
+        <div className="flex gap-x-2">劉依凡(特別研究学生)</div>
+        <div>出身地: 中国江苏省</div>
+        <div>趣味: 音楽</div>
+        <div>メール: </div>
+        <div>liu.yifan.s7[at]dc.tohoku.ac.jp</div>
+      </StudentCard>
+    </div>
+
+    <div className="md:mt-24 md:flex w-full">
+      <StudentCard>
+        <img
+          src={"/fan.jpg"}
+          alt="zeng"
+          className="pb-5"
+          width={180}
+          height={240}
+        />
+        <div>范小叉(M2)</div>
+        <div>出身地: 中国四川省</div>
+        <div>趣味: 電車、アニメ、旅行</div>
+        <div>メール: </div>
+        <div>fan.xiaocha.t2[at]dc.tohoku.ac.jp</div>
+      </StudentCard>
+
+      <StudentCard>
+        <img
+          src={"/dong.jpg"}
+          alt="zeng"
+          className="pb-5"
+          width={180}
+          height={240}
+        />
+        董振武(M2)
+        <div>出身地: 中国湖北省</div>
+        <div>趣味: 旅行、音楽</div>
+        <div>メール:</div>
+        <div>dongzhenwu[at]se.is.tohoku.ac.jp</div>
       </StudentCard>
     </div>
   </StaffCard>
