@@ -115,7 +115,7 @@ export default function Home() {
             <div className="flex w-full justify-between">
               <StaffCard headerText="学生">
                 <div className="md:mt-24 md:flex w-full">
-                  <StudentCard>
+                  <StudentCard className="md:w-1/2">
                     <img
                       src={"/tang.jpg"}
                       alt="zeng"
@@ -129,7 +129,7 @@ export default function Home() {
                     <div>メール: tang[at]se.is.tohoku.ac.jp</div>
                   </StudentCard>
 
-                  <StudentCard>
+                  <StudentCard className="md:w-1/2">
                     <img
                       src={"/zhangyt.jpg"}
                       alt="zeng"
@@ -143,8 +143,10 @@ export default function Home() {
                     <div>メール:</div>
                     <div>zhang.yutong.t6[at]dc.tohoku.ac.jp</div>
                   </StudentCard>
+                </div>
 
-                  <StudentCard>
+                <div className="md:mt-24 md:flex w-full">
+                  <StudentCard className="md:w-1/2">
                     <img
                       src={"/chengyf.jpg"}
                       alt="zeng"
@@ -159,7 +161,7 @@ export default function Home() {
                     <div>cheng.yifei.r1[at]dc.tohoku.ac.jp</div>
                   </StudentCard>
 
-                  <StudentCard>
+                  <StudentCard className="md:w-1/2">
                     <img
                       src={"/sun.jpg"}
                       alt="zeng"
@@ -173,9 +175,6 @@ export default function Home() {
                     <div>メール:</div>
                     <div>csun.yuan.s5[at]dc.tohoku.ac.jp</div>
                   </StudentCard>
-
-
-
                 </div>
               </StaffCard>
             </div>
@@ -289,11 +288,12 @@ export default function Home() {
 
 interface StudentCardProps {
   children: ReactNode;
+  className?: string;
 }
 
-const StudentCard: FC<StudentCardProps> = ({ children }) => {
+const StudentCard: FC<StudentCardProps> = ({ children, className = "" }) => {
   return (
-    <div className="md:w-1/3 md:mb-0 mb-10 overflow-hidden items-center flex-col flex">
+    <div className={`md:w-1/3 md:mb-0 mb-10 overflow-hidden items-center flex-col flex ${className}`}>
       {children}
     </div>
   );
