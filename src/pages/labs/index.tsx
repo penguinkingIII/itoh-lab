@@ -137,7 +137,7 @@ export default function Home() {
                       width={180}
                       height={240}
                     />
-                    张宇彤(M1)
+                    张宇彤(M2)
                     <div>出身地: 中国陕西省</div>
                     <div>趣味: ゲーム、ピストバイク、大河ドラマ</div>
                     <div>メール:</div>
@@ -154,7 +154,7 @@ export default function Home() {
                       width={180}
                       height={240}
                     />
-                    程毅飛(M1)
+                    程毅飛(M2)
                     <div>出身地: 中国陕西省</div>
                     <div>趣味: 音楽、旅行</div>
                     <div>メール:</div>
